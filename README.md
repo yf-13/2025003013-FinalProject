@@ -43,45 +43,46 @@
 ---
 
 ## 📁 项目结构
+
+```
 app/src/main/java/com/example/studyflash/
 ├── MainActivity.kt
 ├── data/
-│ ├── entity/
-│ │ ├── CardGroupEntity.kt
-│ │ └── CardEntity.kt
-│ ├── dao/
-│ │ ├── CardGroupDao.kt
-│ │ └── CardDao.kt
-│ ├── database/
-│ │ └── AppDatabase.kt
-│ ├── network/
-│ │ ├── ApiService.kt
-│ │ ├── RetrofitClient.kt
-│ │ └── dto/
-│ │ └── DictionaryDto.kt
-│ └── repository/
-│ └── StudyRepository.kt
+│   ├── entity/
+│   │   ├── CardGroupEntity.kt
+│   │   └── CardEntity.kt
+│   ├── dao/
+│   │   ├── CardGroupDao.kt
+│   │   └── CardDao.kt
+│   ├── database/
+│   │   └── AppDatabase.kt
+│   ├── network/
+│   │   ├── ApiService.kt
+│   │   ├── RetrofitClient.kt
+│   │   └── dto/
+│   │       └── DictionaryDto.kt
+│   └── repository/
+│       └── StudyRepository.kt
 ├── datastore/
-│ └── UserPreferencesRepository.kt
+│   └── UserPreferencesRepository.kt
 ├── navigation/
-│ └── Screen.kt
+│   └── Screen.kt
 ├── ui/
-│ ├── screens/
-│ │ ├── HomeScreen.kt
-│ │ ├── GroupDetailScreen.kt
-│ │ ├── StudyScreen.kt
-│ │ ├── AddGroupScreen.kt
-│ │ ├── AddCardScreen.kt
-│ │ └── SettingsScreen.kt
-│ ├── components/
-│ └── theme/
-│ ├── Color.kt
-│ └── Theme.kt
+│   ├── screens/
+│   │   ├── HomeScreen.kt
+│   │   ├── GroupDetailScreen.kt
+│   │   ├── StudyScreen.kt
+│   │   ├── AddGroupScreen.kt
+│   │   ├── AddCardScreen.kt
+│   │   └── SettingsScreen.kt
+│   ├── components/
+│   └── theme/
+│       ├── Color.kt
+│       └── Theme.kt
 └── viewmodel/
-├── StudyViewModel.kt
-└── StudyUiState.kt
-
-text
+    ├── StudyViewModel.kt
+    └── StudyUiState.kt
+```
 
 ---
 
