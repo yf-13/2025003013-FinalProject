@@ -14,14 +14,14 @@
 
 | 功能 | 说明 |
 |---|---|
-| 📂 **卡片组管理** | 创建、删除卡片组，每个卡片组可包含多张卡片 |
-| 🃏 **卡片管理** | 添加、删除卡片，卡片包含正面（问题）和背面（答案） |
-| 📖 **学习模式** | 卡片翻转学习，点击卡片查看答案，标记掌握状态 |
-| 📊 **进度追踪** | 实时显示学习进度（已掌握/总数） |
-| 🔍 **搜索功能** | 按卡片组名称搜索 |
-| 🌙 **深色模式** | 支持深色/浅色模式切换，自动保存偏好 |
-| 🌐 **网络获取例句** | 集成 Free Dictionary API，自动获取单词例句 |
-| 🔄 **下拉刷新** | 首页和详情页支持下拉刷新 |
+| 📂 卡片组管理 | 创建、删除卡片组，每个卡片组可包含多张卡片 |
+| 🃏 卡片管理 | 添加、删除卡片，卡片包含正面（问题）和背面（答案） |
+| 📖 学习模式 | 卡片翻转学习，点击卡片查看答案，标记掌握状态 |
+| 📊 进度追踪 | 实时显示学习进度（已掌握/总数） |
+| 🔍 搜索功能 | 按卡片组名称搜索 |
+| 🌙 深色模式 | 支持深色/浅色模式切换，自动保存偏好 |
+| 🌐 网络获取例句 | 集成 Free Dictionary API，自动获取单词例句 |
+| 🔄 下拉刷新 | 首页和详情页支持下拉刷新 |
 
 ---
 
@@ -42,46 +42,47 @@
 
 ---
 
-## 项目结构
-\`\`\`
+## 📁 项目结构
 app/src/main/java/com/example/studyflash/
 ├── MainActivity.kt
 ├── data/
-│   ├── entity/
-│   │   ├── CardGroupEntity.kt
-│   │   └── CardEntity.kt
-│   ├── dao/
-│   │   ├── CardGroupDao.kt
-│   │   └── CardDao.kt
-│   ├── database/
-│   │   └── AppDatabase.kt
-│   ├── network/
-│   │   ├── ApiService.kt
-│   │   ├── RetrofitClient.kt
-│   │   └── dto/
-│   │       └── DictionaryDto.kt
-│   └── repository/
-│       └── StudyRepository.kt
+│ ├── entity/
+│ │ ├── CardGroupEntity.kt
+│ │ └── CardEntity.kt
+│ ├── dao/
+│ │ ├── CardGroupDao.kt
+│ │ └── CardDao.kt
+│ ├── database/
+│ │ └── AppDatabase.kt
+│ ├── network/
+│ │ ├── ApiService.kt
+│ │ ├── RetrofitClient.kt
+│ │ └── dto/
+│ │ └── DictionaryDto.kt
+│ └── repository/
+│ └── StudyRepository.kt
 ├── datastore/
-│   └── UserPreferencesRepository.kt
+│ └── UserPreferencesRepository.kt
 ├── navigation/
-│   └── Screen.kt
+│ └── Screen.kt
 ├── ui/
-│   ├── screens/
-│   │   ├── HomeScreen.kt
-│   │   ├── GroupDetailScreen.kt
-│   │   ├── StudyScreen.kt
-│   │   ├── AddGroupScreen.kt
-│   │   ├── AddCardScreen.kt
-│   │   └── SettingsScreen.kt
-│   ├── components/
-│   └── theme/
-│       ├── Color.kt
-│       └── Theme.kt
+│ ├── screens/
+│ │ ├── HomeScreen.kt
+│ │ ├── GroupDetailScreen.kt
+│ │ ├── StudyScreen.kt
+│ │ ├── AddGroupScreen.kt
+│ │ ├── AddCardScreen.kt
+│ │ └── SettingsScreen.kt
+│ ├── components/
+│ └── theme/
+│ ├── Color.kt
+│ └── Theme.kt
 └── viewmodel/
-    ├── StudyViewModel.kt
-    └── StudyUiState.kt
-\`\`\`
+├── StudyViewModel.kt
+└── StudyUiState.kt
+
+text
+
 ---
 
 ## 🚀 运行说明
@@ -91,3 +92,9 @@ app/src/main/java/com/example/studyflash/
 - Android Studio Ladybug 或更新版本
 - JDK 17+
 - Android SDK API 24+
+
+### 运行步骤
+
+1. 克隆仓库：
+   ```bash
+   git clone https://github.com/yf-13/2025003013-FinalProject.git
