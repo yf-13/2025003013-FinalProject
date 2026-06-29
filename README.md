@@ -46,18 +46,40 @@
 app/src/main/java/com/example/studyflash/
 ├── MainActivity.kt
 ├── data/
-│ ├── entity/ # Room 实体（CardGroupEntity, CardEntity）
-│ ├── dao/ # Room DAO（CardGroupDao, CardDao）
-│ ├── database/ # AppDatabase
-│ ├── network/ # Retrofit + ApiService + DTO
-│ └── repository/ # StudyRepository
-├── datastore/ # UserPreferencesRepository（DataStore）
-├── navigation/ # Screen 导航定义
+│   ├── entity/
+│   │   ├── CardGroupEntity.kt
+│   │   └── CardEntity.kt
+│   ├── dao/
+│   │   ├── CardGroupDao.kt
+│   │   └── CardDao.kt
+│   ├── database/
+│   │   └── AppDatabase.kt
+│   ├── network/
+│   │   ├── ApiService.kt
+│   │   ├── RetrofitClient.kt
+│   │   └── dto/
+│   │       └── DictionaryDto.kt
+│   └── repository/
+│       └── StudyRepository.kt
+├── datastore/
+│   └── UserPreferencesRepository.kt
+├── navigation/
+│   └── Screen.kt
 ├── ui/
-│ ├── screens/ # 6个页面（Home, Detail, Study, AddGroup, AddCard, Settings）
-│ ├── components/ # 可复用组件
-│ └── theme/ # 主题配置（深浅色）
-└── viewmodel/ # StudyViewModel + UiState
+│   ├── screens/
+│   │   ├── HomeScreen.kt
+│   │   ├── GroupDetailScreen.kt
+│   │   ├── StudyScreen.kt
+│   │   ├── AddGroupScreen.kt
+│   │   ├── AddCardScreen.kt
+│   │   └── SettingsScreen.kt
+│   ├── components/
+│   └── theme/
+│       ├── Color.kt
+│       └── Theme.kt
+└── viewmodel/
+    ├── StudyViewModel.kt
+    └── StudyUiState.kt
 
 ---
 
