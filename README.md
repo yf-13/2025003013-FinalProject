@@ -42,7 +42,8 @@
 
 ---
 
-## 📁 项目结构
+## 项目结构
+\`\`\`
 app/src/main/java/com/example/studyflash/
 ├── MainActivity.kt
 ├── data/
@@ -80,7 +81,7 @@ app/src/main/java/com/example/studyflash/
 └── viewmodel/
     ├── StudyViewModel.kt
     └── StudyUiState.kt
-
+\`\`\`
 ---
 
 ## 🚀 运行说明
